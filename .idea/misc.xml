@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DUT/ANDROID/christmas-space-dim/app/src/main/res/drawable/gradient_home_background.xml" value="0.21875" />
+        <entry key="..\:/DUT/ANDROID/christmas-space-dim/app/src/main/res/drawable/rectangle.xml" value="0.37864583333333335" />
+        <entry key="..\:/DUT/ANDROID/christmas-space-dim/app/src/main/res/layout/activity_main.xml" value="0.2871376811594203" />
+        <entry key="..\:/DUT/ANDROID/christmas-space-dim/app/src/main/res/layout/fragment_game.xml" value="0.2608695652173913" />
+        <entry key="..\:/DUT/ANDROID/christmas-space-dim/app/src/main/res/layout/fragment_game_button.xml" value="0.35280797101449274" />
+        <entry key="..\:/DUT/ANDROID/christmas-space-dim/app/src/main/res/layout/fragment_game_switch.xml" value="0.35280797101449274" />
+        <entry key="..\:/DUT/ANDROID/christmas-space-dim/app/src/main/res/layout/fragment_home.xml" value="0.2871376811594203" />
+        <entry key="..\:/DUT/ANDROID/christmas-space-dim/app/src/main/res/layout/fragment_lose.xml" value="0.35280797101449274" />
+        <entry key="..\:/DUT/ANDROID/christmas-space-dim/app/src/main/res/layout/fragment_player.xml" value="0.2608695652173913" />
+        <entry key="..\:/DUT/ANDROID/christmas-space-dim/app/src/main/res/layout/fragment_waiting_empty_room.xml" value="0.25" />
+        <entry key="..\:/DUT/ANDROID/christmas-space-dim/app/src/main/res/layout/fragment_waiting_filled_room.xml" value="0.2608695652173913" />
+        <entry key="..\:/DUT/ANDROID/christmas-space-dim/app/src/main/res/layout/fragment_win.xml" value="0.35280797101449274" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.20260416666666667" />
+      </ProjectState>
+    </option>
   </component>
 </project>

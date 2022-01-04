@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_home_background"
+        tools:context=".WaitingFilledRoomFragment">
+
+        <TextView
+            android:id="@+id/filledWaitingRoomTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:text="@string/filledWaitingRoomTitle"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/waitingRoomTitle_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.19" />
+
+        <RadioButton
+            android:id="@+id/socketIsActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:fontFamily="@font/audiowide"
+            android:selectAllOnFocus="false"
+            android:text="@string/filledWaitingRoom_socket"
+            android:textColor="@color/white"
+            android:textSize="@dimen/editPlayerNicknameInput_size"
+            app:layout_constraintBottom_toTopOf="@+id/readyGameButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/filledWaitingRoomTitle" />
+
+        <Button
+            android:id="@+id/readyGameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C30AD1"
+            android:fontFamily="@font/audiowide"
+            android:text="@string/filledWaitingRoom_ready"
+            android:textColor="#FFF8E1"
+            app:layout_constraintBottom_toTopOf="@+id/roomName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/filledWaitingRoomTitle"
+            app:layout_constraintVertical_bias="0.9"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/roomName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:text="@string/filledWaitingRoom_joined"
+            android:textColor="@color/white"
+            android:textSize="@dimen/editPlayerNicknameInput_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/filledWaitingRoomTitle"
+            app:layout_constraintVertical_bias="0.43" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/firstPlayer"
+            android:name="com.dim.spacedim.PlayerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/filledWaitingRoom_margin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/roomName"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout="@layout/fragment_player" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/secondPlayer"
+            android:name="com.dim.spacedim.PlayerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/filledWaitingRoom_margin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstPlayer"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout="@layout/fragment_player" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">Space DIM</string>
+    <string name="homeTitle">DIM SpaceTeam &#128640;</string>
+    <string name="homeSubtitle">I will be a famous astronaut</string>
+    <string name="editPlayerNicknameInput_hint">Enter your nickname</string>
+    <string name="goButton">Launch</string>
+    <string name="registerSubtitle">I am new to Space Program</string>
+    <string name="registerButton">Register as an astronaut</string>
+    <string name="appName">SpaceTeam DIM</string>
+    <string name="emptyWaitingRoom">Empty Waiting Room</string>
+    <string name="emptyWaitingRoomTitle">Enter a room name to join or create a game…</string>
+    <string name="emptyWaitingRoom_socket">Socket Inactive</string>
+    <string name="emptyWaitingRoom_join">Join a game room</string>
+    <string name="emptyWaitingRoom_joined">No one joined</string>
+    <string name="filledWaitingRoom">Filled Waiting Room</string>
+    <string name="filledWaitingRoomTitle">Set your status to ready and the game will start when everyone is ready</string>
+    <string name="filledWaitingRoom_ready">I am ready</string>
+    <string name="filledWaitingRoom_joined">test room</string>
+    <string name="playerName">Bot</string>
+    <string name="playerReadyStatus">Ready</string>
+    <string name="filledWaitingRoom_socket">Socket Active</string>
+    <string name="Game">Gameplay</string>
+    <string name="game_instruction">There is a meteor approaching you !</string>
+    <string name="gameAnnotation">You are currently near the planet EX-841F</string>
+    <string name="gameWin">Win</string>
+    <string name="gameLose">Lose</string>
+    <string name="activatelaser">Lasers</string>
+    <string name="tp">Teleport</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Win">You won !</string>
+    <string name="Lose">You lost !</string>
+    <string name="win_title">You successfully won the game ! Perfect teamwork !</string>
+    <string name="win_score">Your score was 1302. Good job.</string>
+    <string name="win_retry">One more ?</string>
+    <string name="win_scores">High scores</string>
+    <string name="lose_scores">High scores</string>
+    <string name="lose_retry">Try again ?</string>
+    <string name="lose_score">Your score was 89. You can do better.</string>
+    <string name="lose_title">You lost the game ! Try again and get better with your team !</string>
 </resources>

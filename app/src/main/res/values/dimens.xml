@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="homeTitle_size">28sp</dimen>
+    <dimen name="homeTitle_mt">200dp</dimen>
+    <dimen name="editPlayerNicknameInput_width">200dp</dimen>
+    <dimen name="editPlayerNicknameInput_size">16sp</dimen>
+    <dimen name="waitingRoomTitle_size">24sp</dimen>
+    <dimen name="playerName_size">20sp</dimen>
+    <dimen name="filledWaitingRoom_margin">30dp</dimen>
+    <dimen name="player_paddingXL">30dp</dimen>
+    <dimen name="playerStatus_size">24sp</dimen>
+    <dimen name="gameTitle_size">30sp</dimen>
+    <dimen name="gameBar_margin">25dp</dimen>
+    <dimen name="gameAnnotation_size">14sp</dimen>
+</resources>
